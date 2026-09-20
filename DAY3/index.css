@@ -1,0 +1,117 @@
+/*
+selector by the name of tag name
+selector by the name of class
+selector by the name of id
+universal selector
+selector by the name of group
+   
+class selector 
+.head1{
+    color: red;
+} 
+
+universal selector 
+*{
+    color: red;
+} 
+
+group selector
+h2, h3, p{
+    color: blueviolet;
+}
+
+Descendant Selector
+div p{
+    color: red;
+}
+
+p {
+    color: rgb(162, 226, 149);
+    background-color: rgb(60, 117, 208);
+    width: 150px;
+    height: 100px;
+    text-align: left; 
+    text-decoration: underline;
+    background-image: url("Screenshot 2026-07-24 224019.png");
+}
+*/
+/*h1{
+    color: red;
+    background-color: rgb(60, 117, 208);
+}
+span{
+    color: rgb(162, 226, 149);
+    background-color: rgb(60, 117, 208);
+}
+*/
+#parent{
+    width: 1000px;
+    height: 1000px;
+    background-color:beige;
+}
+#child1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(60, 117, 208);
+}
+#child2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(162, 226, 149);
+    /*position: relative;
+    top: 150px;
+    left: 150px;*/
+    /*position: absolute;
+    top: 150px;
+    left: 150px;*/
+    /*position: fixed;
+    top: 0px;*/
+    position: sticky;
+    top: 0px;
+}
+#child3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+}
+#child4{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+p{
+    /*letter-spacing: 2px;
+    word-spacing: 5px;*/
+    /* width: 300px;
+    height: 100px;
+    background-color: rgb(60, 117, 208); */
+    /*border-width: 5px;
+    border-style: dashed;
+    border-color: rgb(255, 0, 0);*/
+    /* border: 5px dashed rgb(255, 0, 0);
+    margin: 200px;
+    padding: 20px; */
+    /*text-align: center;
+    line-height: 40px;
+    font-family:fantasy;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;*/
+}
+a{  /*text-decoration: none;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-transform: capitalize;*/
+}
